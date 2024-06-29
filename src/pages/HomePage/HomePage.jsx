@@ -5,8 +5,6 @@ import MovieList from "../../components/MovieList/MovieList";
 export const HomePage = () => {
   const { data: result } = useHttp(fetchTrendMovies);
 
-  console.log(result);
-
   return (
     <div>
       <MovieList films={result} />
