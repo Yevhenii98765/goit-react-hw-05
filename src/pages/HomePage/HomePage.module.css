@@ -1,0 +1,12 @@
+.ul_style {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 15px 0;
+    li{
+        color: blue;
+        &:hover {
+            color: brown;
+        }
+    }
+}

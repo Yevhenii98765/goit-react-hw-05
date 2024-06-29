@@ -1,0 +1,8 @@
+.header {
+    padding: 10px 20px;
+    background-color: grey;
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
