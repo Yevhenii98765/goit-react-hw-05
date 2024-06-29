@@ -58,7 +58,7 @@ export const MovieDetailsPage = () => {
               alignItems: "center",
             }}
           >
-            <h3>Reating: </h3>
+            <h3>Rating: </h3>
             <h3>{data.popularity}</h3>
           </div>
         </div>
